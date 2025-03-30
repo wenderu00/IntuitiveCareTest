@@ -48,7 +48,7 @@ class GovPageObjetct:
         self.waitAttachmentDownload(self.attachmentTwoFileName)
 
     def compressAttachments(self):
-        pdfFiles = [os.path.join(self.downloadDict,self.attachmentOneFileName), os.path.join(self.downloadDict,self.attachmentTwoFileName)]
+        pdfFiles = [os.path.join('docs',self.attachmentOneFileName), os.path.join("docs",self.attachmentTwoFileName)]
         zipName = os.path.join(self.zipDict, "anexo_ii_e_anexoii_"+time.time().__str__()+".zip")
         with zipfile.ZipFile(zipName, 'w',compression=zipfile.ZIP_DEFLATED) as zipf:
             [zipf.write(pdf) for pdf in pdfFiles]
@@ -70,5 +70,6 @@ prefs = {
 }
 chrome_options.add_experimental_option("prefs", prefs)
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)
+
 govPage = GovPageObjetct(driver)
 govPage.extractAttachmentsAndZipWithTeardown()
