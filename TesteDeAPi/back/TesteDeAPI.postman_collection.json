@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "22734d58-caff-41d6-bb9c-103691088274",
+		"name": "TesteDeAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17578607"
+	},
+	"item": [
+		{
+			"name": "test_administradora",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": \"ADMINISTRADORA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/operadoras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"operadoras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test_abplus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": \"ABPLUS\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/operadoras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"operadoras"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
