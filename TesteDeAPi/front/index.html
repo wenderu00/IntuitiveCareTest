@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    </head>
+    <body>
+
+        <div id="app">
+            <h1>Operadoras</h1>
+            <input type="text" size="15" v-on:change="searchOperators"/><br />
+            <ul>
+                <li v-for="operator in operators">
+                    <span>Nome: {{operator.razao_social}}</span><br/>
+                    <span>UF: {{operator.uf}}</span>
+                    <span>Cidade: {{operator.cidade}}</span>
+                    <span>Bairro: {{operator.bairro}}</span>
+                    <span>Logradouro: {{operator.logradouro}}</span>
+                    <span>Numero: {{operator.numero}}</span><br/>
+                    <span>DDD: {{operator.ddd}}</span>
+                    <span>Telefone: {{operator.telefone}}</span>
+                    <span>E-Mail: {{operator.endereco_eletronico}}</span>
+
+
+                </li>
+            </ul>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
