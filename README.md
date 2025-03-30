@@ -14,7 +14,8 @@ Eu nunca tinha usado nem o tabula nem o pandas. Isso me fez gastar um tempo cons
 
 Esse foi o teste mais desafiador, pois, apesar de já ter tido contato com bancos de dados devido à minha atuação na área de testes automatizados há muito tempo, não havia aprofundado esse conhecimento na prática. Infelizmente, isso resultou em um débito técnico que me impediu de concluir a atividade em sua totalidade. Embora eu tenha conseguido realizar a etapa de modelagem do banco de dados para receber as informações dos arquivos CSV, não fui capaz de transferir os dados para o banco em si e, consequentemente, não pude executar a análise da terceira etapa.
 
-![[Pasted image 20250330163430.png]]
+![image](https://github.com/user-attachments/assets/91aadc53-2cfe-4179-93a8-8ed9536912a6)
+
 
 
 Esse fato evidenciou uma lacuna no meu conhecimento, da qual agora tenho consciência e pretendo corrigir por meio de estudos direcionados.
